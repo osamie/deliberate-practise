@@ -1,0 +1,11 @@
+name: deliberate-practise
+
+type: ruby
+
+up:
+  - ruby: 2.6.3
+  - bundler
+
+commands:
+  test:
+    run: bundle exec rake
